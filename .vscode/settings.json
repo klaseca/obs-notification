@@ -1,0 +1,8 @@
+{
+  "Lua.diagnostics.globals": [
+    "obslua",
+    "script_load",
+    "script_description",
+    "script_path"
+  ]
+}
