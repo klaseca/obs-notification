@@ -25,17 +25,17 @@ Copy repo with `git clone` or just Download ZIP to folder you want
 
 ### Windows
 
-1. Download [SDL2](https://github.com/libsdl-org/SDL/releases/tag/release-2.30.9) and [SDL_TTF2](https://github.com/libsdl-org/SDL_ttf/releases/tag/release-2.22.0)
+1. Download [SDL3](https://github.com/libsdl-org/SDL/releases/tag/release-3.2.10) and [SDL_TTF3](https://github.com/libsdl-org/SDL_ttf/releases/tag/release-3.2.2)
 (`*-win32-x64.zip` or `*-win32-x86.zip` depending on your system)
 
-1. Extract `SDL2.dll` and `SDL2_ttf.dll` from archives and save them in `lib/resources` folder
+1. Extract `SDL3.dll` and `SDL3_ttf.dll` from archives and save them in `lib/resources` folder
 
 ### Linux and macOS
 
 Get binary files for your OS:
 
-- `libSDL2.so` and `libSDL2_ttf.so` for linux
-- `libSDL2.dylib` and `libSDL2_ttf.dylib` for macOS
+- `libSDL3.so` and `libSDL3_ttf.so` for linux
+- `libSDL3.dylib` and `libSDL3_ttf.dylib` for macOS
 
 ## Configuration
 

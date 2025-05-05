@@ -5,22 +5,22 @@ local function get_dependencies(script_path)
 
   local dependencies_by_os = {
     Windows = {
-      sdl_path = script_path .. "resources/SDL2.dll",
-      sdl_ttf_path = script_path .. "resources/SDL2_ttf.dll",
+      sdl_path = script_path .. "resources/SDL3.dll",
+      sdl_ttf_path = script_path .. "resources/SDL3_ttf.dll",
       font_path = "C:/Windows/Fonts/Arial.ttf",
       font_size = 20,
       icon_path = icon_path,
     },
     Linux = {
-      sdl_path = "/usr/local/lib/libSDL2.so",
-      sdl_ttf_path = "/usr/local/lib/libSDL2_ttf.so",
+      sdl_path = "/usr/local/lib/libSDL3.so",
+      sdl_ttf_path = "/usr/local/lib/libSDL3_ttf.so",
       font_path = "/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
       font_size = 20,
       icon_path = icon_path,
     },
     OSX = {
-      sdl_path = "/usr/local/lib/libSDL2.dylib",
-      sdl_ttf_path = "/usr/local/lib/libSDL2_ttf.dylib",
+      sdl_path = "/usr/local/lib/libSDL3.dylib",
+      sdl_ttf_path = "/usr/local/lib/libSDL3_ttf.dylib",
       font_path = "/Library/Fonts/Arial.ttf",
       font_size = 20,
       icon_path = icon_path,
